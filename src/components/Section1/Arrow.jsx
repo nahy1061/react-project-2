@@ -1,12 +1,12 @@
-import React from 'react'
-import 'remixicon/fonts/remixicon.css'
+import React from "react";
+import "remixicon/fonts/remixicon.css";
 
 const Arrow = () => {
   return (
-    <div className='text-8xl'>
-            <i className="ri-arrow-right-up-line"></i>
-        </div>
-  )
-}
+    <div className="text-6xl sm:text-7xl lg:text-8xl">
+      <i className="ri-arrow-right-up-line"></i>
+    </div>
+  );
+};
 
-export default Arrow
+export default Arrow;
